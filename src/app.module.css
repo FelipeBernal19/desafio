@@ -1,0 +1,31 @@
+.header{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.logo{
+    grid-column: 1; 
+    grid-row: 1;
+    
+}
+
+.titulo{
+    grid-column: 2; 
+    grid-row: 1;
+    text-align: center;
+}
+
+.slogan{
+    grid-column: 3; 
+    grid-row: 1;
+    text-align: right;
+}
+
+.flex{
+    grid-column: 1/4; 
+    grid-row: 2;
+    text-align: center;
+    display: flex;
+}
